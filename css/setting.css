@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font;
+}
+
+@font-face {
+  font-family: font;
+  src: url(../public/fonts/iranyekanwebregular.b95439c1.b95439c1\ \(1\).woff);
+}
+:root {
+  --gray-color-100: #f0f0f1;
+  --gray-color-150: #e0e0e2;
+  --gray-color-200:#81858b;
+  --dark-color-50: #a1a3a8;
+  --dark-color-75: #424750;
+  --dark-color-100: #3f4064;
+  --dark-color-150: #0c0c0c;
+  --orange-color-100:#f57f17;
+  --orange-color-200:#f57f1712;
+  --blue-color-200:#0d4485;
+}
+svg {
+  fill: inherit !important;
+  stroke: inherit !important;
+}
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: var(--gray-color-150);
+  margin: 0px 8px;
+}
+.divider2 {
+  width: 2px;
+  height: 14px;
+  background-color:#ef4056;
+  margin: 0px 8px;
+}
+input[type=radio]{
+  display: none;
+}
+

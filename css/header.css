@@ -1,0 +1,298 @@
+.wraper .header {
+  width: 100%;
+  --tw-shadow: 0 1px 0 #00000024, 0 2px 0 #0000000d;
+  --tw-shadow-colored:
+    0 1px 0 var(--tw-shadow-color) --tw-shadow-color is not defined,
+    0 2px 0 var(--tw-shadow-color);
+  box-shadow:
+    var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
+}
+.wraper .header .top {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & img {
+    object-fit: cover;
+  }
+}
+.wraper .header .top .tabligh {
+  width: 100%;
+  height: 100%;
+}
+.wraper .header .middle {
+  width: 100%;
+  height: 100%;
+  padding: 12px 16px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.wraper .header .middle .right {
+  display: flex;
+  width: 80%;
+  gap: 16px;
+}
+.wraper .header .middle .right .logodg {
+  width: 195px;
+  height: 30px;
+}
+.wraper .header .searchbar {
+  background-color: var(--gray-color-100);
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px 16px;
+  border-radius:;
+  -webkit-border-radius: 99999px;
+  -moz-border-radius: 99999px;
+  -ms-border-radius: 99999px;
+  -o-border-radius: 99999px;
+  gap: 10px;
+}
+.wraper .header .searchbar svg {
+  fill: var(--dark-color-50) !important;
+}
+
+.wraper .header .middle .right .searchbar .icon {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.wraper .header .middle .right .searchbar .input {
+  width: 450px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  & input {
+    background-color: transparent;
+    border: 0;
+    outline: unset;
+    width: 428px;
+    height: 26px;
+  }
+}
+.header .middle .left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  .notification {
+    width: 24px;
+    height: 24px;
+    & svg {
+      fill: var(--dark-color-75) !important;
+    }
+  }
+  .login-btn {
+    font-size: 12px;
+    background-color:;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--gray-color-150);
+    & a {
+      display: flex;
+      padding: 8px 16px;
+      align-items: center;
+      text-decoration: none;
+      gap: 4px;
+      color: var(--dark-color-150);
+      & svg {
+        fill: var(--dark-color-75) !important;
+      }
+    }
+  }
+  .shop {
+    padding-right: 6px;
+    & svg {
+      fill: var(--dark-color-75) !important;
+    }
+  }
+}
+.wraper .header .bottem {
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 16px;
+}
+.wraper .header .bottem .right {
+  background-color:;
+  height: 100%;
+}
+
+.wraper .header .bottem .right .menuitems {
+  background-color:;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  .menuitem,
+  .menu-item-link {
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+}
+.menuitem {
+  height: 100%;
+  color: var(--dark-color-100);
+  fill: var(--dark-color-100);
+
+  .sub-menu {
+    width: 85%;
+    height: 400px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 100%;
+    display: none;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    .right-items {
+      width: 16%;
+      height: 100%;
+      background-color: #f5f5f5;
+      overflow: auto;
+      list-style: none;
+      direction: ltr !important;
+      .right-item {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        background-color:;
+        margin-bottom: 2px;
+        line-height: 50px;
+        padding: 5px;
+        gap: 6px;
+        color: var(--dark-color-100);
+        fill: var(--dark-color-100);
+        direction: rtl;
+        .left-items {
+          width: 84%;
+          height: 100%;
+          overflow: auto;
+          background-color:;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          direction: ltr;
+          .left-titel {
+            width: 100%;
+            padding: 0px 10px;
+            direction: rtl;
+
+            & a {
+              display: flex;
+              align-items: center;
+              text-decoration: none;
+              color: var(--blue-color-200);
+              gap: 4px;
+              & svg {
+                fill: var(--blue-color-200) !important;
+              }
+            }
+          }
+          .left-body {
+            width: 100%;
+            height: 100%;
+            background-color:;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            direction: rtl;
+            .body {
+              width: 24%;
+              height: 100%;
+              background-color:;
+              & p {
+                color: var(--gray-color-200);
+                font-size: 12px;
+                margin: -12px 12px;
+              }
+            }
+            .span {
+              display: flex;
+              align-items: center;
+              fill: var(--dark-color-150);
+              & span {
+                font-size: 14px;
+                color: var(--dark-color-150);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &:hover {
+    .sub-menu {
+      display: block;
+      z-index: 10;
+    }
+  }
+}
+
+.menu-item-link {
+  height: 100%;
+  color: var(--dark-color-50);
+  fill: var(--dark-color-50);
+}
+.wraper .header .bottem .left {
+  padding: 4px 12px;
+  background-color: var(--orange-color-200);
+  border-radius: 9999px;
+  -webkit-border-radius: 9999px;
+  -moz-border-radius: 9999px;
+  -ms-border-radius: 9999px;
+  -o-border-radius: 9999px;
+  .location {
+    display: flex;
+    align-items: center;
+    fill: var(--orange-color-100);
+    color: var(--orange-color-100);
+    background-color: transparent;
+    border: none;
+    & label {
+      display: flex;
+      gap: 8px;
+    }
+    .city-wraper {
+      width: 100%;
+      height: 100%;
+      background-color: #56565653;
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: none;
+      .city{
+        margin: auto;
+        width: 500px;
+        height: 300px;
+        background-color: #FFFFFF;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+}
+    }
+  }
+}
+#tehran-city:checked ~ .city-wraper{
+  display: flex;
+}
