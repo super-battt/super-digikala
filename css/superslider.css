@@ -1,9 +1,14 @@
+.superbat {
+  margin: 24px 11px 0px;
+  padding: 0px 16px;
+}
 .super-slider {
   width: 100%;
   height: 314px;
   background-color: #d32c4e;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -25,11 +30,11 @@
       justify-content: center;
       gap: 24px;
       & img:first-child {
-        width: 64px;
+        width: 100%;
         height: 64px;
       }
       & img:last-child {
-        width: 126px;
+        width: 100%;
         height: 28px;
       }
     }
@@ -52,7 +57,7 @@
     }
 
     .span {
-      width: 109px;
+      width: 100%;
       height: 32px;
       background-color: #e8e9eb;
       display: flex;
@@ -71,9 +76,17 @@
   }
 }
 .super-slider .super-slider-left {
-  width:88%;
-  height: 100%;
-  background-color: blueviolet;
+  width: 88%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  overflow: hidden;
 }
 .swiper {
   width: 100%;
@@ -84,21 +97,27 @@
 }
 
 .swiper-slide {
-    width: 328px;
-    height: 100%;
+  width: 100%;
+  height: 100%;
   text-align: center;
   font-size: 18px;
-  background: #FFFFFF;
+  background: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 8px;
+  .img {
+    width: 100%;
+    height: 100%;
+  }
   .span {
-    width: 148px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     font-size: 14px;
-/* AI code */
+    text-align: right;
+    padding-right: 8px;
+    /* AI code */
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
@@ -108,20 +127,20 @@
 
     line-height: 1.5;
     max-height: calc(1.5em * 2);
-  } 
+  }
   /*  */
-  .off{
+  .off {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 4px;
-    .fuck{
+    .fuck {
       text-decoration: line-through;
       font-size: 12px;
       color: #c0c2c5;
     }
-    .aa{
-      background-color: #D32F2F;
+    .aa {
+      background-color: #d32f2f;
       font-size: 12px;
       color: #e8e9eb;
       padding: 0px 4px;
@@ -130,10 +149,9 @@
       -moz-border-radius: 12px;
       -ms-border-radius: 12px;
       -o-border-radius: 12px;
-}
-
+    }
   }
-  .fuck-under{
+  .fuck-under {
     display: flex;
     align-items: center;
     gap: 4px;
@@ -145,4 +163,3 @@
   height: 100%;
   object-fit: cover;
 }
-
